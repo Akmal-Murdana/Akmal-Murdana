@@ -1,0 +1,95 @@
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to top, #4c2e0b, #8f6e36c5);
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    text-align: center;
+    width: 100%;
+    max-width: 800px;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0);
+    border-radius: 20px; /* Menambahkan sudut melengkung */
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0); /* Menambahkan bayangan */
+}
+
+.center-image {
+    width: 150px;
+    height: 150px; 
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 50px;
+}
+
+nav {
+    margin-top: 5px;
+}
+
+nav a {
+    color: #ffffff; 
+    text-decoration: none; 
+    margin: 0 0px; /* Mengubah margin agar berlaku dengan benar */
+    padding: 10px 15px;
+    border-radius: 10px;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+nav a:hover {
+    background-color: rgba(220, 44, 44, 0.975);
+    transform: scale(1.1);
+    box-shadow: 0 4px 15px rgba(255, 255, 255, 0.2);
+}
+
+header {
+    background: rgba(0, 0, 0, 0.995);
+    color: #ffffff;
+    padding: 10px 0;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+    background: rgba(18, 26, 178, 0);
+    padding: 20px;
+    margin: 50px 0;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgb(0, 0, 0);
+}
+
+.profile-image {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    margin-right: -25px;
+}
+
+.profile-info {
+    flex: 1;
+}
+
+.contact {
+    background: rgba(125, 107, 9, 0.9);
+    padding: 10px 0;
+    margin-bottom: 10px 0;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgb(126, 7, 7);
+}
+
+footer {
+    width: 100%;
+    text-align: center;
+    padding: 10px 0;
+    background-color: rgba(95, 9, 9, 0.968);
+}
